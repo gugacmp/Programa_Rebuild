@@ -1,0 +1,136 @@
+FAZER O BACKUP ANTES
+
+PRIMEITO PASSO MATAR TODOS OS PROCESSOS.  ( killall -9 rts32 )
+E RENOMEAR ( mv sgauser.gnt sgauser.old | USAR NO FINAL PRA VOLTAR A ROTINA DE ACESSO AO SISTEMA : mv sgauser.old sgauser.gnt )
+--------------------------------------------------------------------------------------------------------------------------------------------
+Comando para reogarnizar os arquivos de saída.
+
+Erro [ )] ou [9/041] no arquivo SAIDA      na rotina GRV-EST06 
+
+rebuild -d -e SGC016,TESTE 
+rebuild -d -e TESTE,SGC016
+
+rebuild -d -e SGC024,TESTE 
+rebuild -d -e TESTE,SGC024
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo VENDITENS  na rotina GRV-ITENS 
+
+rebuild -d -e SGC065,TESTE 
+rebuild -d -e TESTE,SGC065
+
+rebuild -d -e SGC066,TESTE 
+rebuild -d -e TESTE,SGC066
+
+rebuild -d -e SGC067,TESTE
+rebuild -d -e TESTE,SGC067
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo ENTRADA    na rotina GRAVA.
+
+rebuild -d -e SGC044,TESTE
+rebuild -d -e TESTE,SGC044
+------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo no arquivo QUITADO NA ROTINA GR
+
+rebuild -d -e SGC024,TESTE
+rebuild -d -e TESTE,SGC024
+
+rebuild -d -e SGC025,TESTE
+rebuild -d -e TESTE,SGC025
+
+rebuild -d -e SGC026,TESTE
+rebuild -d -e TESTE,SGC026 
+------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ ) ] ou [9/041] no arquivo CCFISCAL na rotina LE-ARQRET . Tecle [+] 
+
+rebuild -d -e SGC904,TESTE
+rebuild -d -e TESTE,SGC904
+----------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo VENDDUP    na rotina CALCULO
+
+rebuild -d -e SGC065,TESTE 
+rebuild -d -e TESTE,SGC065
+
+rebuild -d -e SGC066,TESTE 
+rebuild -d -e TESTE,SGC066
+
+rebuild -d -e SGC067,TESTE
+rebuild -d -e TESTE,SGC067
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo SAIDA      na rotina TST-SAI01
+
+rebuild -d -e SGC016,TESTE 
+rebuild -d -e TESTE,SGC016
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo COMISSAO   na rotina GRV-COM02
+
+rebuild -d -e SGC018,TESTE 
+rebuild -d -e TESTE,SGC018
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo RECIBO
+
+rebuild -d -e SGC025,TESTE 
+rebuild -d -e TESTE,SGC025
+
+rebuild -d -e SGC026,TESTE 
+rebuild -d -e TESTE,SGC026
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo ENTRADA na rotina LE-ENT
+
+rebuild -d -e SGC039,TESTE 
+rebuild -d -e TESTE,SGC039
+
+rebuild -d -e SGC040,TESTE 
+rebuild -d -e TESTE,SGC040
+
+rebuild -d -e SGC044,TESTE
+rebuild -d -e TESTE,SGC044
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo BALANCO    na rotina MES-ANO
+
+rebuild -d -e SGC102,TESTE
+rebuild -d -e TESTE,SGC102
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo SAIDA      na rotina GRV-ITC
+
+rebuild -d -e SGC016,TESTE 
+rebuild -d -e TESTE,SGC016
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo VENDDOC    na rotina GRV-DOC3  . Tecle [+]
+
+rebuild -d -e SGC065,TESTE 
+rebuild -d -e TESTE,SGC065
+
+rebuild -d -e SGC066,TESTE 
+rebuild -d -e TESTE,SGC066
+
+rebuild -d -e SGC067,TESTE
+rebuild -d -e TESTE,SGC067
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo ECF60M     na rotina INICIO
+
+rebuild -d -e SGC080,TESTE
+rebuild -d -e TESTE,SGC080
+
+rebuild -d -e SGC081,TESTE
+rebuild -d -e TESTE,SGC081
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo MOVBCO na rotina GRV-MOVBCO. Tecle [+] 
+
+rebuild -d -e SGC035,TESTE
+rebuild -d -e TESTE,SGC035
+
+rebuild -d -e SGC036,TESTE
+rebuild -d -e TESTE,SGC036
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ )] ou [9/041] no arquivo NTFILES na rotina INI-VND . Tecle [+]
+
+rebuild -d -e SGC802,TESTE
+rebuild -d -e TESTE,SGC802
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erro [ +] ou [9/043] no arquivo CICF       na rotina INICIO    . Tecle [+]
+remover os arquivos : 
+SGC083BKP
+SGC083.idx
